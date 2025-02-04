@@ -4,17 +4,31 @@ body {
 
 h1 {
     text-align: center;
-    font-size: 50%;
+    font-size: 34px;
     color: #553C8B;
 }
 
 h3 {
     text-align: center;
-    font-size: 35%;
+    font-size: 20px;
     color: #553C8B;
 }
 
+
 .introduction {
     width: 50%;
-    background-color: #FFEAFE
+    background-color: #FFEAFE;
+    margin: auto;
+    color: #553C8B;
+    border: #CCC1FF;
+    border-width: 5px;
+}
+
+.education {
+    width: 50%;
+    background-color: #FFEAFE;
+    margin: auto;
+    color: #553C8B;
+    border: #CCC1FF;
+    border-width: 5px;
 }
