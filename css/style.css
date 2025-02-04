@@ -21,7 +21,7 @@ h3 {
     color: #553C8B;
     text-align: center;
     border: 5px solid #CCC0FF;
-    font-size: 20px;
+    font-size: 18px;
 }
 
 .education {
@@ -32,14 +32,14 @@ h3 {
     margin: auto;
     margin-top: 20px;
     border: 5px solid #CCC0FF;
-    font-size: 20px;
+    font-size: 18px;
 }
 
 .education ul {
-    margin: 5px;
+    margin: 0 5px;
 }
 
 .education ul li {
     list-style-type: none;
-    margin: 10px;
+    margin: 0 10px;
 }
