@@ -19,9 +19,8 @@ h3 {
     background-color: #FFEAFE;
     margin: auto;
     color: #553C8B;
-    border: #CCC1FF;
-    border-width: 10px;
     text-align: center;
+    border: 5px solid #CCC0FF;
 }
 
 .education {
@@ -29,10 +28,9 @@ h3 {
     background-color: #FFEAFE;
     margin: auto;
     color: #553C8B;
-    border: #CCC1FF;
-    border-width: 10px;
-    margin: 20px;
-    text-align: center;
+    margin: auto;
+    margin-top: 20px;
+    border: 5px solid #CCC0FF;
 }
 
 .education ul li {
