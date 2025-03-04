@@ -9,7 +9,7 @@ function minMaxAverage(numbers) {
     let sum = numbers.reduce((acc, num) => acc + num, 0);
     let avg = sum / totalNumbers;
 
-    console.log('Total Numbers: ${totalNumbers}, Min Value: ${minVal}, Max Value: ${maxVal}, Average ${avg.toFixed(2)}');
+    console.log(`Total Numbers: ${totalNumbers}, Min Value: ${minVal}, Max Value: ${maxVal}, Average ${avg.toFixed(2)}`);
 }
 
 // Tests
@@ -28,7 +28,7 @@ function countVowels(str) {
         }
     }
 
-    console.log('${str}: ${count} vowels');
+    console.log(`${str}: ${count} vowels`);
 }
 
 //Tests
