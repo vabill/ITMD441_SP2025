@@ -31,8 +31,18 @@ function countVowels(str) {
     console.log(`${str}: ${count} vowels`);
 }
 
-//Tests
+// Tests
 countVowels("Winter");
 countVowels("Stray Kids");
 countVowels("Ateez");
 
+// Exercise 3
+function sortNumbers(numbers) {
+    let sortedArray = numbers.sort((a,b) => a - b);
+    console.log(`Orignal Array: ${numbers} => Sorted Array: ${sortedArray}`);
+}
+
+// Tests
+sortNumbers([9, 4, 6, 2]);
+sortNumbers([12, 4, 1, 9]);
+sortNumbers([59, 21, 2, 8]);
