@@ -29,7 +29,7 @@ function countVowels(str) {
         }
     }
 
-    console.log(str + ": " + count + "vowels");
+    console.log(str + ": " + count + " vowels");
 }
 
 // Tests
