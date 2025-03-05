@@ -9,7 +9,7 @@ function minMaxAverage(numbers) {
     let sum = numbers.reduce((acc, num) => acc + num, 0);
     let avg = sum / totalNumbers;
 
-    console.log(`Total Numbers: ${totalNumbers}, Min Value: ${minVal}, Max Value: ${maxVal}, Average ${avg.toFixed(2)}`);
+    console.log("Total Numbers: " + totalNumbers + ", Min Value: " + minVal + ", Max Value: " + maxValue + ", Average: " + average.toFixed(2));
 }
 
 // Tests
@@ -28,7 +28,7 @@ function countVowels(str) {
         }
     }
 
-    console.log(`${str}: ${count} vowels`);
+    console.log(str + ": " + count + "vowels");
 }
 
 // Tests
@@ -39,10 +39,21 @@ countVowels("Ateez");
 // Exercise 3
 function sortNumbers(numbers) {
     let sortedArray = numbers.sort((a,b) => a - b);
-    console.log(`Orignal Array: ${numbers} => Sorted Array: ${sortedArray}`);
+    console.log("Orignial Array: " + numbers + " -> Storted Array: " + sortedArray);
 }
 
 // Tests
 sortNumbers([9, 4, 6, 2]);
 sortNumbers([12, 4, 1, 9]);
 sortNumbers([59, 21, 2, 8]);
+
+// Exercise 4
+function celsiusToFahrenheit(celsius) {
+    let fahreneheit = (parseFloat(celsius) * 9/5) + 32;
+    console.log(parseFloat(celsius).toFixed(1) + " Celsius = " + fahreneheit.toFixed(1) + " Fahrenheit");
+}
+
+// Tests
+celsiusToFahrenheit(30);
+celsiusToFahrenheit(100);
+celsiusToFahrenheit(0);
