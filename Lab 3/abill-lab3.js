@@ -9,10 +9,11 @@ function minMaxAverage(numbers) {
     let sum = numbers.reduce((acc, num) => acc + num, 0);
     let avg = sum / totalNumbers;
 
-    console.log("Total Numbers: " + totalNumbers + ", Min Value: " + minVal + ", Max Value: " + maxValue + ", Average: " + average.toFixed(2));
+    console.log("Total Numbers: " + totalNumbers + ", Min Value: " + minVal + ", Max Value: " + maxVal + ", Average: " + avg.toFixed(2));
 }
 
 // Tests
+console.log("Exercise 1 - minMaxAverage:");
 minMaxAverage([2, 5, 23, 6, 9, 4, 30, 1]);
 minMaxAverage([1, 5, 3, 5, 10, 12, 8, 6]);
 minMaxAverage([12, 45, 1, 8, 4, 14, 24, 6]);
