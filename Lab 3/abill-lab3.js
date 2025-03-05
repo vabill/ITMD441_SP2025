@@ -33,6 +33,7 @@ function countVowels(str) {
 }
 
 // Tests
+console.log("Exercise 2 - countVowels:")
 countVowels("Winter");
 countVowels("Stray Kids");
 countVowels("Ateez");
@@ -44,6 +45,7 @@ function sortNumbers(numbers) {
 }
 
 // Tests
+console.log("Exercise 3 - sortNumbers:")
 sortNumbers([9, 4, 6, 2]);
 sortNumbers([12, 4, 1, 9]);
 sortNumbers([59, 21, 2, 8]);
@@ -55,6 +57,7 @@ function celsiusToFahrenheit(celsius) {
 }
 
 // Tests
+console.log("Exercise 4 - celsiusToFahrenheit:")
 celsiusToFahrenheit(30);
 celsiusToFahrenheit(100);
 celsiusToFahrenheit(0);
